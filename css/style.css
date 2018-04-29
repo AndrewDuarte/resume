@@ -89,7 +89,8 @@ blockquote {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  width: 100%; }
 
 .flex-start {
   -webkit-align-items: flex-start;
@@ -153,6 +154,25 @@ blockquote {
   margin-top: 10px;
   font-style: italic; }
 
+.header .fa-info-circle {
+  font-size: 1.6rem;
+  position: relative;
+  top: 15px;
+  border: none;
+  color: #fff;
+  opacity: 0.6;
+  border-radius: 50%;
+  animation: animate 3s linear infinite; }
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 rgba(225, 225, 225, 0.7), 0 0 0 0 rgba(225, 225, 225, 0.7); }
+  40% {
+    box-shadow: 0 0 0 20px rgba(225, 225, 225, 0), 0 0 0 0 rgba(225, 225, 225, 0); }
+  80% {
+    box-shadow: 0 0 0 20px rgba(225, 225, 225, 0), 0 0 0 10px rgba(225, 225, 225, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(225, 225, 225, 0), 0 0 0 10px rgba(225, 225, 225, 0); } }
 .logo {
   width: 50.367vw;
   height: auto; }
