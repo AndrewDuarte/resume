@@ -51,12 +51,23 @@ html {
     html {
       font-size: 65%; } }
 
+h1, h2, h3, h4, h5, h6 {
+  width: 100%; }
+
 h1 {
   font-size: 1.8rem; }
 
 h2 {
-  font-size: 1.7rem;
-  font-family: "Architects Daughter", cursive; }
+  font-size: 1.8rem;
+  color: #13202e;
+  font-family: "Architects Daughter", cursive;
+  margin: 5px 0; }
+
+h3 {
+  font-size: 1.6rem;
+  color: #d85349;
+  font-family: "Roboto", sans-serif;
+  margin: 2px 0; }
 
 p {
   margin: 5px 0;
@@ -72,6 +83,12 @@ blockquote {
   text-align: center;
   color: #d85349;
   margin: 10px 0; }
+
+ul {
+  list-style: disc;
+  margin-left: 25px;
+  font-size: 1.4rem;
+  line-height: 1.4; }
 
 .flex-container {
   margin-right: auto;
@@ -183,6 +200,10 @@ aside {
   color: #fff;
   font-style: italic; }
 
+aside h2 {
+  color: #fff;
+  text-transform: uppercase; }
+
 aside hr:before {
   position: absolute;
   transform: translateY(-50%) translateX(-50%);
@@ -199,6 +220,10 @@ aside hr:before {
 .aside-content {
   position: relative;
   top: -61px; }
+
+/* Section Styling */
+section {
+  margin: 31px 0 0 0; }
 
 @keyframes animate {
   0% {
