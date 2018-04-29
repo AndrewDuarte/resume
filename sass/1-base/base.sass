@@ -1,0 +1,30 @@
+// BASE RULES
+//A Base rule is applied to an element using an element selector, a descendent selector, or a child selector, along with any pseudo-classes. It does NOT include any class or ID selectors. It is defining the default styling for how that element should look in all occurrences on the page.
+
+html
+    font-size: 10px
+    font-family: $Roboto
+    +screen('mobile')
+        font-size: 65%
+
+h1
+    font-size: $h1
+
+h2
+    font-size: $h2
+    font-family: $Architect
+
+p
+    margin: 5px 0
+    font-size: $p
+
+hr
+    width: 80%
+    text-align: center
+    line-height: 1px 
+    
+blockquote
+    font-size: $h3
+    text-align: center
+    color: $red
+    margin: 10px 0

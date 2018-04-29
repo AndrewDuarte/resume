@@ -1,0 +1,48 @@
+// DEFINING THE GRID
+
+.flex-container
+    margin-right: auto
+    margin-left: auto
+    +screen('desktop')
+        width: 83.456%
+    +screen('tablet')
+        width: 93.75%
+    +screen('mobile')
+        width: 92%
+
+.flex-row
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 15px
+
+.flex-start
+    +prefix('align-items','flex-start',webkit)
+
+.flex-end
+    +prefix('align-items','flex-end',webkit)
+
+.flex-vertical-center
+    +prefix('box-align','center',webkit moz)
+    +prefix('align-items','center',webkit)
+
+.flex-item
+    flex: 1
+    +screen('mobile')
+        flex-basis: auto
+
+.flex-item-2
+    flex: 2
+    +screen('mobile')
+        flex-basis: auto
+
+.flex-end
+    display: flex
+    justify-content: flex-end
+
+.flex-center
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+.text-center
+    text-align: center

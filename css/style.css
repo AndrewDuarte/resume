@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif; }
+  @media only screen and (max-width: 767px) {
+    html {
+      font-size: 65%; } }
+
+h1 {
+  font-size: 1.8rem; }
+
+h2 {
+  font-size: 1.7rem;
+  font-family: "Architects Daughter", cursive; }
+
+p {
+  margin: 5px 0;
+  font-size: 1.4rem; }
+
+hr {
+  width: 80%;
+  text-align: center;
+  line-height: 1px; }
+
+blockquote {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #d85349;
+  margin: 10px 0; }
+
+.flex-container {
+  margin-right: auto;
+  margin-left: auto; }
+  @media only screen and (min-width: 1024px) {
+    .flex-container {
+      width: 83.456%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .flex-container {
+      width: 93.75%; } }
+  @media only screen and (max-width: 767px) {
+    .flex-container {
+      width: 92%; } }
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px; }
+
+.flex-start {
+  -webkit-align-items: flex-start;
+  align-items: flex-start; }
+
+.flex-end {
+  -webkit-align-items: flex-end;
+  align-items: flex-end; }
+
+.flex-vertical-center {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.flex-item {
+  flex: 1; }
+  @media only screen and (max-width: 767px) {
+    .flex-item {
+      flex-basis: auto; } }
+
+.flex-item-2 {
+  flex: 2; }
+  @media only screen and (max-width: 767px) {
+    .flex-item-2 {
+      flex-basis: auto; } }
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end; }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.text-center {
+  text-align: center; }
+
+/*Header */
+.header {
+  height: 36.925vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("//andrewduarte.com.au/wp-content/uploads/MainImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  -webkit-box-shadow: 0px 7px 20px 12px rgba(35,31,32,0.4);
+  -moz-box-shadow: 0px 7px 20px 12px rgba(35,31,32,0.4);
+  box-shadow: 0px 7px 20px 12px rgba(35,31,32,0.4); }
+
+.banner-content {
+  height: 100%; }
+
+.header h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic; }
+
+.logo {
+  width: 50.367vw;
+  height: auto; }
+
+/* Side Column Styling */
+aside {
+  background-color: #13202e;
+  color: #fff;
+  font-style: italic; }
+
+aside hr:before {
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  content: url("/img/quotation.svg");
+  width: 50px;
+  height: 20px; }
+
+.profile-img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  transform: translateY(-50%) translateX(0%); }
+
+.aside-content {
+  position: relative;
+  top: -61px; }
+
+.banner-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1; }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner-video {
+      width: 136vw; } }
+  @media only screen and (max-width: 767px) {
+    .banner-video {
+      width: auto;
+      height: 88.298vh; } }
+
+/*# sourceMappingURL=style.css.map */
