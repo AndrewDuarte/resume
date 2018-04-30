@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
  * v2.0 | 20110126
  * License: none (public domain) */
@@ -61,17 +62,18 @@ h2 {
   font-size: 1.8rem;
   color: #13202e;
   font-family: "Architects Daughter", cursive;
-  margin: 5px 0; }
+  margin: 8px 0; }
 
 h3 {
   font-size: 1.6rem;
   color: #d85349;
   font-family: "Roboto", sans-serif;
-  margin: 2px 0; }
+  margin: 5px 0; }
 
 p {
   margin: 5px 0;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  line-height: 1.8rem; }
 
 hr {
   width: 80%;
@@ -89,6 +91,9 @@ ul {
   margin-left: 25px;
   font-size: 1.4rem;
   line-height: 1.4; }
+
+li {
+  flex-basis: 100%; }
 
 .flex-container {
   margin-right: auto;
@@ -225,8 +230,17 @@ aside hr:before {
   top: -61px; }
 
 /* Section Styling */
-section {
+.main-section {
   margin: 31px 0 0 0; }
+
+.date::before {
+  content: "";
+  font-size: 1.4rem;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased; }
 
 @keyframes animate {
   0% {
