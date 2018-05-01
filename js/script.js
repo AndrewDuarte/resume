@@ -5,7 +5,6 @@ function showClick() {
     infoBtn.addEventListener("click", function (event) {
         event.preventDefault();
         document.querySelector('.popup-overlay').classList.add('show');
-        console.log(event);
     });
 } showClick();
 
