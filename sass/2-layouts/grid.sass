@@ -1,5 +1,10 @@
 // DEFINING THE GRID
 
+.flex
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+
 .flex-container
     margin-right: auto
     margin-left: auto
@@ -19,15 +24,29 @@
 .flex-start
     +prefix('align-items','flex-start',webkit)
 
-.flex-end
+.flex-vertical-end
     +prefix('align-items','flex-end',webkit)
+    flex-direction: row !important
 
 .flex-vertical-center
+    display: flex
+    +prefix('box-align','center',webkit moz)
+    +prefix('align-items','center',webkit)
+
+.flex-horizontal-end
+    display: flex
+    justify-content: flex-end
+
+.flex-end-center
+    display: flex
+    justify-content: flex-end
     +prefix('box-align','center',webkit moz)
     +prefix('align-items','center',webkit)
 
 .flex-item
     flex: 1
+    display: inline-flex
+    flex-wrap: wrap
     +screen('mobile')
         flex-basis: auto
 
@@ -36,10 +55,6 @@
     +screen('mobile')
         flex-basis: auto
 
-.flex-end
-    display: flex
-    justify-content: flex-end
-
 .flex-center
     display: flex
     justify-content: center
@@ -47,3 +62,7 @@
 
 .text-center
     text-align: center
+    flex-direction: column
+
+small
+    color: $light-grey

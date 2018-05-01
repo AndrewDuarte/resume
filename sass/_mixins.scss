@@ -18,6 +18,8 @@
   $desktop: "min-width: 1024px";
   $tablet: "min-width: 768px) and (max-width: 1023px";
   $mobile: "max-width: 767px";
+  $smallMobile: "max-width: 575.98px";
+
   @if $size == desktop {
     @media only screen and ($desktop) {
       @content;
@@ -30,6 +32,11 @@
   }
   @else if $size == mobile {
     @media only screen and ($mobile) {
+      @content;
+    }
+  }
+  @else if $size == smallMobile {
+    @media only screen and ($smallMobile) {
       @content;
     }
   }

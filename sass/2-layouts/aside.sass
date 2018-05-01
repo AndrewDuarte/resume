@@ -25,9 +25,25 @@ aside hr:before
     margin: 0 auto
     transform: translateY(-50%) translateX(0%)
 
+aside .social-icons
+    height: 40px
+    +screen('mobile')
+        height: 70px
+    margin-bottom: 30px
+
+aside .social-icons a
+    font-size: $h1
+    color: $white
+    +screen('smallMobile')
+    margin: 0 15px
+
+aside .social-icons a:hover
+    color: $red   
+
+
 .aside-content
     position: relative
-    top: -61px
+    top: -138px
 
 .lang::before
     content: '\f121'

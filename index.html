@@ -20,10 +20,10 @@
         <div class="flex-container banner-content">
             <!-- Info icon -->
             <a href="" id="info">
-                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                <i class="fa fa-info-circle" aria-hidden="true" title="Page info"></i>
             </a>
             <!-- Github icon -->
-            <a href="https://github.com/AndrewDuarte/resume" target="_blank" rel="noopener" id="github">
+            <a href="https://github.com/AndrewDuarte/resume" target="_blank" rel="noopener" id="github" title="Page source code">
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
             <div class="flex-row banner-content">
@@ -52,8 +52,25 @@
 
                 <div class="aside-content">
                     <!-- Socail Icons -->
-                    <div class="flex-row">
-
+                    <div class="flex-row social-icons">
+                        <!-- Website icon -->
+                        <div class="flex-item flex-horizontal-end">
+                            <a href="//andrewduarte.com.au/" title="Andrew Duarte Website" target="_blank" rel="noopener">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <!-- Twitter icon -->
+                        <div class="flex-item flex-center flex-vertical-end">
+                            <a href="//twitter.com/AndrewCDuarte?lang=en" title="Twitter" target="_blank" rel="noopener">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <!-- LinkedIn icon -->
+                        <div class="flex-item">
+                            <a href="//www.linkedin.com/in/andrewcduarte/" title="LinkedIn" target="_blank" rel="noopener">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                     <!-- Line Brake -->
                     <div class="flex-row">
@@ -110,14 +127,14 @@
                                 <li>Slack</li>
                                 <li>Trello</li>
                                 <li>TaskFeed</li>
-                            </ul>                            
+                            </ul>
                         </div>
                     </div>
                     <!-- References -->
                     <div class="flex-row">
                         <div class="flex-item">
                             <h2>REFERENCES</h2>
-                            <p>     Upon request</p>
+                            <p> Upon request</p>
                         </div>
                     </div>
                 </div>
@@ -138,9 +155,9 @@
                         </p>
                     </div>
                     <!-- Company Logo -->
-                    <div class="flex-item flex-center flex-end">
+                    <div class="flex-item flex-end-center">
                         <a href="//jxt.com.au" target="_blank" rel="noopener">
-                            <img src="/img/jxt-logo.svg" alt="JXT Global Logo" width="62">
+                            <img class="company-logo" src="/img/jxt-logo.svg" alt="JXT Global Logo" width="62">
                         </a>
                     </div>
                     <ul class="flex-row">
@@ -165,8 +182,8 @@
                         </p>
                     </div>
                     <!-- Company Logo -->
-                    <div class="flex-item flex-center flex-end">
-                        <img src="/img/web3d-logo@4x-8.png" alt="Web3D Logo" width="62">
+                    <div class="flex-item flex-end-center">
+                        <img class="company-logo" src="/img/web3d-logo@4x-8.png" alt="Web3D Logo" width="62">
                     </div>
                     <ul class="flex-row">
                         <li>Leading development of multiple mobile responsive websites</li>
@@ -194,9 +211,9 @@
                         </p>
                     </div>
                     <!-- Education Logo -->
-                    <div class="flex-item flex-center flex-end">
+                    <div class="flex-item flex-end-center">
                         <a href="//www.opencolleges.edu.au/courses/design/graphic/diploma-graphic-design" target="_blank" rel="noopener">
-                            <img src="/img/open-colleges.svg" alt="Open Colleges Logo" width="122">
+                            <img class="company-logo" src="/img/open-colleges.svg" alt="Open Colleges Logo" width="122">
                         </a>
                     </div>
                     <p class="flex-row">This is a hands-on course that covers everything for a career in graphic design. The course consists
@@ -213,8 +230,8 @@
                         </p>
                     </div>
                     <!-- Company Logo -->
-                    <div class="flex-item flex-center flex-end">
-                        <img src="/img/sydney-tafe-logo@4x-8.png" alt="Sydney Tafe Logo" width="102">
+                    <div class="flex-item flex-end-center">
+                        <img class="company-logo" src="/img/sydney-tafe-logo@4x-8.png" alt="Sydney Tafe Logo" width="102">
                     </div>
                     <p class="flex-row">This qualification is in designing, building and/or managing websites as an independent web developer
                         or as part of a team. Persons working at this level will be creating dynamic web pages, web programs,
@@ -257,6 +274,46 @@
             </div>
         </section>
     </div>
+    <footer>
+        <div class="footer-bar flex-vertical-center">
+            <div class="flex-container flex">
+                <!-- Email -->
+                <div class="flex-item flex-center">
+                    <p class="text-center">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="//andrewduarte.com.au/contact/">Email Me</a>
+                    </p>
+                </div>
+                <!-- Mobile -->
+                <div class="flex-item flex-center">
+                    <p class="text-center">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <a href="tel:001161424949492">Phone</a>
+                    </p>
+                </div>
+                <!-- Website -->
+                <div class="flex-item flex-center">
+                    <p class="text-center">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <a href="//andrewduarte.com.au">Website</a>
+                    </p>
+                </div>
+                <!-- Location -->
+                <div class="flex-item flex-center">
+                    <p class="text-center">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <a href="//goo.gl/maps/mhYqreGKQ3K2" target="_blank" rel="noopener">Mascot, Sydney</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+                <div class="flex-item">
+                    <small>© Copyright 2018 Andrew Duarte</small>
+                </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
