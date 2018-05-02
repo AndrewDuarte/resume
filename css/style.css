@@ -241,6 +241,9 @@ small {
 .logo {
   width: 50.367vw;
   height: auto; }
+  @media only screen and (max-width: 767px) {
+    .logo {
+      width: 100%; } }
 
 /* Side Column Styling */
 aside {
@@ -265,7 +268,11 @@ aside hr:before {
   transform: translateY(-50%) translateX(0%); }
   @media only screen and (max-width: 767px) {
     .profile-img {
-      width: 15rem; } }
+      width: 15rem;
+      transform: translateY(-42%) translateX(0%); } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    .profile-img {
+      transform: translateY(0%) translateX(0%); } }
 
 aside .social-icons {
   height: 40px;
@@ -285,6 +292,12 @@ aside .social-icons a:hover {
 .aside-content {
   position: relative;
   top: -138px; }
+  @media only screen and (max-width: 767px) {
+    .aside-content {
+      top: -130px; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    .aside-content {
+      top: -60px; } }
 
 .lang::before {
   content: "";
