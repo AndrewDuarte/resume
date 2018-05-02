@@ -20,9 +20,12 @@ aside hr:before
     width: 200px
     +screen('mobile')
         width: 15.0rem
+        transform: translateY(-42%) translateX(0%)
     height: auto
     margin: 0 auto
     transform: translateY(-50%) translateX(0%)
+    +screen('mobileLandscape')
+        transform: translateY(0%) translateX(0%)
 
 aside .social-icons
     height: 40px
@@ -43,6 +46,10 @@ aside .social-icons a:hover
 .aside-content
     position: relative
     top: -138px
+    +screen('mobile')
+        top: -130px
+    +screen('mobileLandscape')
+        top: -60px    
 
 .lang::before
     content: '\f121'
