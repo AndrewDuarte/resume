@@ -106,14 +106,6 @@ li {
 strong {
   font-weight: 700; }
 
-.btn {
-  background-color: #d85349;
-  border: none;
-  color: #fff;
-  padding: 12px 20px;
-  font-size: 1.6rem;
-  cursor: pointer; }
-
 small {
   color: #73737d;
   font-size: 1rem; }
@@ -494,5 +486,13 @@ a {
   max-width: 100px;
   max-height: 100px;
   margin: 0 auto; }
+
+.btn {
+  background-color: #d85349;
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1.6rem;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
