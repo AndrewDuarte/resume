@@ -73,7 +73,8 @@ h3 {
   font-style: initial; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 p {
   margin: 5px 0;
@@ -112,6 +113,10 @@ strong {
   padding: 12px 20px;
   font-size: 1.6rem;
   cursor: pointer; }
+
+small {
+  color: #73737d;
+  font-size: 1rem; }
 
 .flex {
   display: -webkit-box;
@@ -193,8 +198,9 @@ strong {
 .flex-nowrap {
   flex-wrap: nowrap; }
 
-small {
-  color: #73737d; }
+@media only screen and (max-width: 575.98px) {
+  .mobile-visible {
+    display: block; } }
 
 /*Header */
 .header {
@@ -354,6 +360,9 @@ aside .social-icons a:hover {
 @media only screen and (max-width: 575.98px) {
   .company-logo {
     display: none; } }
+
+h3 + small {
+  display: none; }
 
 footer {
   position: relative;
