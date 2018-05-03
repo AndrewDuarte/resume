@@ -69,7 +69,7 @@ h3 {
   font-size: 1.6rem;
   color: #d85349;
   font-family: "Roboto", sans-serif;
-  margin: 10px 0 5px 0;
+  margin: 15px 0 5px 0;
   font-style: initial; }
 
 a {
@@ -79,7 +79,7 @@ a {
 p {
   margin: 5px 0;
   font-size: 1.4rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   font-style: initial; }
 
 hr {
@@ -101,7 +101,8 @@ ul {
 
 li {
   flex-basis: 100%;
-  margin-left: 10px; }
+  margin-left: 10px;
+  line-height: 2rem; }
 
 strong {
   font-weight: 700; }
@@ -224,7 +225,7 @@ small {
   top: 15px;
   border: none;
   color: #fff;
-  opacity: 0.6; }
+  opacity: 0.9; }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header .fa-github {
       font-size: 1.6rem; } }
@@ -238,7 +239,7 @@ small {
   top: 15px;
   border: none;
   color: #fff;
-  opacity: 0.6;
+  opacity: 0.9;
   border-radius: 50%;
   animation: animate 3s linear infinite; }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
