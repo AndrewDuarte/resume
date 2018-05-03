@@ -67,5 +67,6 @@
 .flex-nowrap
     flex-wrap: nowrap
 
-small
-    color: $light-grey
+.mobile-visible
+    +screen('smallMobile')
+        display: block
