@@ -435,7 +435,7 @@ a {
 
 .popup-overlay {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: rgba(19, 32, 46, 0.5);
