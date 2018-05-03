@@ -395,6 +395,9 @@ footer i {
       display: block !important;
       padding: 3px 0; } }
 
+footer .fa-mobile {
+  font-size: 1.8rem !important; }
+
 footer a {
   color: #fff; }
 
