@@ -51,7 +51,11 @@ header .pdf-download
     float: right
     position: absolute
     bottom: 0px
-    right: 15px
+    right: 5%
+    +screen('tablet')
+        right: 2%
+    +screen('mobile')
+        right: 2%   
     color: $white
     background-color: $red
     padding: 10px 10px
