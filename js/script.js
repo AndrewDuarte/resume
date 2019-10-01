@@ -1,4 +1,5 @@
 
+"use strict";    
 // Show Popup box onClick
 function showClick() {
     var infoBtn = document.getElementById('info');
@@ -14,5 +15,5 @@ function hideClick() {
     x.addEventListener("click", function (event) {
         event.preventDefault();
         document.querySelector('.popup-overlay').classList.remove('show');
-    })
+    });
 }hideClick();
